@@ -1,5 +1,7 @@
 package com.kh.git;
 
+import com.kh.animal.Dog;
+
 /*
  * SCM Software Configuration Management
  * - 코드추적(버전관리) 외에 build, packaging, deploy등 프로젝트 관련 프로세스를 관리
@@ -17,5 +19,8 @@ package com.kh.git;
 public class Helloworld {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
+		
+		Dog dog = new Dog();
+		dog.bark();
 	}
 }
